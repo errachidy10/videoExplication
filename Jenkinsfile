@@ -34,7 +34,7 @@ pipeline {
             archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
         }
         success {
-            echo 'Pipeline completed successfully! '
+            echo 'Pipeline completed successfully!'
         }
         failure {
             echo 'Pipeline failed!'
